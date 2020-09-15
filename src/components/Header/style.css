@@ -1,0 +1,28 @@
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background: var(--color-nav);
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 2.5rem;
+}
+
+.nav-list {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+
+    color: var(--color-title);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-list:hover {
+    background: var(--color-nav-hover);
+}

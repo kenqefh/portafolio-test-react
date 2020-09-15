@@ -1,0 +1,12 @@
+footer{
+    border-top: 3px solid var(--color-nav);
+    background: var(--color-fondo-contact);
+    color: var(--color-text2);
+    min-height: 120px;
+}
+ 
+footer > p{  
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}

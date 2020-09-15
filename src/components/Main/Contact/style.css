@@ -1,0 +1,29 @@
+#contact{
+    min-height: 200px;
+    height: calc(100vh - 173px);
+    background: var(--color-fondo-contact);
+    text-align: center;
+}
+
+#contact h2 {
+    padding: 20vh 0 15px;
+}
+
+#contact div {
+    margin-top: 20px;
+}
+
+.link-contact {
+    margin: 20px;
+    text-decoration: none;
+    color: var(--color-text2);
+}
+
+.link-contact::before {
+    content: '@';
+    color: var(--color-title);
+}
+
+.link-contact:hover {
+    text-decoration: underline var(--color-title);
+}
